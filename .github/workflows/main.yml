@@ -1,7 +1,7 @@
 name: Check and Build
 
 env:
-  kernel_repository: https://github.com/TheVoyager0777/Kernel_Xiaomi_SM8150_R.git
+  kernel_repository: TheVoyager0777/Kernel_Xiaomi_SM8150_R
   kernel_branch: VK-VI
   device: crux
   clang_version: r487747c
