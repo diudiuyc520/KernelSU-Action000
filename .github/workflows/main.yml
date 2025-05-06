@@ -1,15 +1,13 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
-  kernel_branch: fourteen
-  device: dipper
+  kernel_repository: https://github.com/TheVoyager0777/Kernel_Xiaomi_SM8150_R.git
+  kernel_branch: VK-VI
+  device: crux
   clang_version: r487747c
-  defconfig: |
-    dipper_defconfig
-  kernel_patch: |
-    backport-path-umount.patch
-  kernelsu_patch: |
+  defconfig:  crux_stock_defconfig
+  kernel_patch: 
+  kernelsu_patch: 
 
 on:
   workflow_dispatch:
